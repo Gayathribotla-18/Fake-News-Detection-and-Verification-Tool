@@ -32,7 +32,7 @@ except ImportError:
 
 _GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
 # New (working) setting
-_GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')  # Changed to flash for faster responses
+_GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash') 
 _GEMINI_AVAILABLE = False
 _GEMINI_MODEL_INSTANCE = None
 
